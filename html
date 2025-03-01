@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b0d272519c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./budget.css">
+</head>
+<body>
+    <h1 class="centerhd">Simple Budget App JS</h1>
+ <div class="maindiv">  
+    <div class="first">
+       <p style="margin-left: 120px;">Action Fields</p> 
+       <p style="margin-left: 10px;"><i class="fa-solid fa-circle fa-2xs"></i> Click the button below to update your Wallet amount</p> 
+       <input type="number" id="in1" class="input1"></label><button onclick="uw()" class="wallet"> <i class="fa-solid fa-wallet"></i> Update Wallet</button >
+       <p style="margin-left: 10px;"><i class="fa-solid fa-circle fa-2xs"></i> Click the button to Add Expense</p>
+       <input type="number" class="input2"><button class="add "><i class="fa-solid fa-plus"></i>Add Expense</button>
+    </div>
+    <br> 
+    <div class="second">
+        <div class="secondjc">
+        <div class="second1">
+            <button class="s1wallet"><i class="fa-solid fa-wallet"></i></button>
+            <p style="margin-left: 70px;">Wallet</p> 
+            <input style="border-radius: 20px;"type="number" id="dis1">
+        </div>
+        <div class="second2">
+            <button class="s2expenses"><i class="fa-solid fa-money-bill"></i></button>
+            <p style="margin-left: 70px;">Expens</p>
+            <input style="border-radius: 20px;" type="number">
+        </div>
+    </div>
+    <div class="flex">
+        <div class="Second3">
+            <button class="s3balance"><i class="fa-solid fa-scale-balanced"></i>
+            </button>
+            <p style="margin-left: 70px;">Balance</p>
+            <input style="border-radius: 20px;" type="number">
+        
+        </div>
+    </div>
+    </div>
+    <br><br>
+        <div class="third">
+            <p class="thitd head" style="margin-left: 160px;">Expense List</p>
+            <ul>Expense 102 <button><i class="fa-solid fa-pen-to-square"></i></button><button><i class="fa-solid fa-trash" style="color: #ff0000;"></i></button></ul>
+            <ul>Expense 750<button><i class="fa-solid fa-pen-to-square"></i></button> <button><i class="fa-solid fa-trash" style="color: #ff0000;"></i></button></ul>
+            <ul>Expense 835<button><i class="fa-solid fa-pen-to-square"></i></button><button><i class="fa-solid fa-trash" style="color: #ff0000;"></i></button></ul>
+            <ul>Expense 225<button><i class="fa-solid fa-pen-to-square"></i></button><button><i class="fa-solid fa-trash" style="color: #ff0000;"></i></button></ul>
+            <ul>Expense 65<button><i class="fa-solid fa-pen-to-square"></i></button><button><i class="fa-solid fa-trash" style="color: #ff0000;"></i></button></ul>
+
+        </div>
+    </div> 
+</body>
+<script src="budgetapp.js"></script>
+</html>
