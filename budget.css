@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(20, 138, 241);
+}
+
+.centerhd{
+    align-items: center;
+    margin-left: 450px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    background-color: aliceblue;
+    height: 250px;
+    width: 400px;
+}
+.input1{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+.input2{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+.wallet{
+    border: #FFCA28;
+    color: #FFCA28;
+    margin-left: 10px
+
+}
+.add{
+    border: #1976D2;
+    color: #1976D2;
+    margin-left: 10px;
+}
+
+.second{
+    background-color: aliceblue;
+    height: 300px;
+    width: 400px;
+}
+.secondjc{
+    display:flex;
+    justify-content: space-around;
+}
+.second1{
+    background-color: white;
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;  
+    border-radius: 5px;
+
+}
+.second2{
+    background-color:white;
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.Second3{
+    background-color:white;
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.s1wallet{
+    margin-top: 10px;
+    margin-left:20px;
+    height: 30px;
+    width: 130px;
+    background-color: #FFCA28;
+    border: #FFCA28;
+}
+.s2expenses{
+    margin-top: 10px;
+    margin-left:20px;
+    height: 30px;
+    width: 130px;
+    background-color: #EF5350;
+    border: #EF5350;
+}
+.s3balance{
+    margin-top: 10px;
+    margin-left:20px;
+    height: 30px;
+    width: 130px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    background-color:white;
+    height: 250px;
+    width: 400px;
+}
+.third head{
+    
+}
